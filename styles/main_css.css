@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url(../fonts/BebasNeue\ Bold.ttf);
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/OpenSans.ttf);
+}
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+
+}
+
+.header__inner {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.header__inner img {
+    margin: 0 auto;
+    padding-top: 41px;
+}
+
+.header__inner h1 {
+    padding-top: 309px;
+    padding-left: 12px;
+    color: rgba(255, 255, 255, 1);
+    font-family: BebasNeueBold;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 5.71px;
+    text-align: center;
+}
+
+.header__inner p {
+    padding-top: 9px;
+    color: rgba(255, 255, 255, 1);
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.header__inner h4 {
+    padding-top: 227px;
+    padding-bottom: 72px;
+    color: rgba(255, 255, 255, 1);
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+}
