@@ -23,9 +23,15 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+li  {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: #F2F2F2;
 }
 
 img {
@@ -35,6 +41,13 @@ img {
 
 .container {
     max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 1)
+}
+
+.block {
+    max-width: 941px;
     width: 100%;
     margin: 0 auto;
 }
@@ -52,6 +65,8 @@ img {
 
 .header__inner img {
     margin: 0 auto;
+    width: 101px;
+    height: 23;
     padding-top: 41px;
 }
 
@@ -89,4 +104,42 @@ img {
     letter-spacing: 3.7px;
     text-align: center;
     text-transform: uppercase;
+}
+
+/* navbar */
+.navbar {
+
+}
+.navbar__inner {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 21px;
+
+}
+    .navbar .container {
+    border: 1px solid rgba(230, 230, 230, 1);
+    background: rgba(255, 255, 255, 1);
+}
+.navbar__inner-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 27px;
+}
+.li {
+    color: rgba(72, 85, 91, 1);
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1.09px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.navbar__inner img {
+    width: 79px;
+    height: 18px;
 }
