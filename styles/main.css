@@ -397,7 +397,7 @@ input[placeholder] {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    padding-bottom: 39px;
+    padding-bottom: 23px;
 
 }
 .footer__title {
@@ -477,14 +477,17 @@ input[placeholder] {
 
 .footer__bottom .container{
     background-color: #171819;
+    display: flex;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
 }
 .footer__bottom p {
-    padding-top: 4px;
-    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 11px;
     letter-spacing: 0.08em;
     color: #fff;
-    text-align: center;
 }
