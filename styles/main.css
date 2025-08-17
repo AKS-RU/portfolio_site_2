@@ -111,7 +111,7 @@ img {
     padding-top: 309px;
     padding-left: 12px;
     color: rgba(255, 255, 255, 1);
-    font-family: BebasNeueBold;
+    font-family: var(--second-family);
     font-size: 60px;
     font-weight: 400;
     line-height: 100%;
@@ -122,7 +122,7 @@ img {
 .header__inner p {
     padding-top: 9px;
     color: rgba(255, 255, 255, 1);
-    font-family: OpenSans;
+    font-family: var(--font-family);
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
@@ -134,7 +134,7 @@ img {
     padding-top: 227px;
     padding-bottom: 72px;
     color: rgba(255, 255, 255, 1);
-    font-family: OpenSans;
+    font-family: var(--font-family);
     font-size: 11px;
     font-weight: 400;
     line-height: 100%;
@@ -167,7 +167,7 @@ img {
 
 .navbar__inner-menu a {
     color: rgba(72, 85, 91, 1);
-    font-family: OpenSans;
+    font-family: var(--font-family);
     font-size: 12px;
     font-weight: 500;
     line-height: 100%;
