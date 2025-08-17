@@ -249,18 +249,29 @@ img {
     padding-top: 17px;
     padding-left: 15px;
 }
+#card-1,
+#card-2,
+#card-3 {
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+
+#card-1:hover,
+#card-2:hover,
+#card-3:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
 #card-1 {
     background-image: url(../img/card_1.png);
-    background-repeat: no-repeat;
 }
 #card-2 {
     background-image: url(../img/card_2.png);
-    background-repeat: no-repeat;
 }
 #card-3 {
     background-image: url(../img/card_3.png);
-    background-repeat: no-repeat;
 }
+
 
 /* Services */
 .services__flex {
@@ -310,6 +321,10 @@ img {
     border: 1px solid #e6e6e6;
     padding-top: 37px;
     padding-left: 21px;
+}
+.services__grid-card:hover {
+    cursor: pointer;
+    background-color: #F2F2F2;
 }
 
 .services__grid-card h5 {
